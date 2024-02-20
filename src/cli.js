@@ -1,3 +1,3 @@
 import readLineSync from 'readline-sync';
 
-export default () => readLineSync.question('May I have your name? ');
+export default (questionText) => readLineSync.question(questionText);
